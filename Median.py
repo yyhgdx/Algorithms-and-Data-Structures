@@ -157,8 +157,3 @@ class Solution:
             else:
                 stop = 2
                 return a1, a2, star1, end1, star2, end2, stop
-if __name__ == '__main__':
-    list1=[1,2]
-    list2=[5]
-    a=Solution.findMedianSortedArrays(0,list1,list2)
-    print(a)
